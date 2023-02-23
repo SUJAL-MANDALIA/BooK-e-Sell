@@ -1,10 +1,11 @@
 import React from 'react'
 
  function Title(props) {
+    const {title , description} = props
   return (
     <div>
-        <h1>This is Title</h1>
-        <h3>{props.titleText}</h3>
+        <h1>{title}</h1>
+        <h3>{description}</h3>
     </div>
   )
 }
