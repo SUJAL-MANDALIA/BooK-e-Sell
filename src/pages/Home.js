@@ -7,8 +7,8 @@ class Home extends Component {
         super()
 
         this.state = ({
-            title: "Book-e-Sell",
-            description: "This is online Book Selling Platform"
+            title: "Book-e-Sell Home Page",
+            description: "This is online Book Selling Platform Home Page"
         });
     }
 
